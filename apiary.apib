@@ -1,0 +1,207 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# helloworld_test
+
+Polls is a simple API allowing consumers to view polls and vote in them.
+
+## Questions Collection [/questions]
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+
+        {
+            "resCode": "000",
+            "data": {
+                "tbCourses": [
+                              {
+                              "course": {
+                              "courseId": "7585289187883968",
+                              "classStartTime": "1522407600000",
+                              "courseTitle": "变形记——乘法分配律",
+                              "classEndTime": "1522411200000"
+                              },
+                              "des": "揭开数学神秘面纱#再攀智慧高峰",
+                              "weight": "10",
+                              "typeTitle": "1+1数学",
+                              "typeCode": "5",
+                              "url": "kehai://tbCourse/getTbCourserList.do//5",
+                              "video": {
+                              "courseId": "7585086382504896",
+                              "classStartTime": "1521889200000",
+                              "courseTitle": "变形记——乘法交换律和结合律",
+                              "videoId": "7636838949977024"
+                              }
+                              },
+                              {
+                              "course": {
+                              "courseId": "7585172861189056",
+                              "classStartTime": "1522236600000",
+                              "courseTitle": "What is the weather like in Beijing？",
+                              "classEndTime": "1522240200000"
+                              },
+                              "des": "讲解教材知识模块#传授学习方法",
+                              "weight": "5",
+                              "typeTitle": "咪兔英语",
+                              "typeCode": "6",
+                              "url": "kehai://tbCourse/getTbCourserList.do//6",
+                              "video": {
+                              "courseId": "7584775307983808",
+                              "classStartTime": "1521631800000",
+                              "courseTitle": "It is rainy",
+                              "videoId": "7628463401171904"
+                              }
+                              },
+                              {
+                              "course": {
+                              "courseId": "7585143197039552",
+                              "classStartTime": "1522580400000",
+                              "courseTitle": "怎样写书信日记",
+                              "classEndTime": "1522584000000"
+                              },
+                              "des": "培养写作思维#激发想象力",
+                              "weight": "0",
+                              "typeTitle": "神笔作文",
+                              "typeCode": "1",
+                              "url": "kehai://tbCourse/getTbCourserList.do//5",
+                              "video": {
+                              "classStartTime": "1521370800000",
+                              "courseTitle": "观察和描写野生鸟兽动物",
+                              "videoId": "7619852019104704",
+                              "courseId": "7571650786819008"
+                              }
+                              },
+                              {
+                              "course": null,
+                              "des": "英语外语情景教学#口语表达迅速提升",
+                              "weight": "0",
+                              "typeTitle": "外教口语",
+                              "typeCode": "2",
+                              "url": "kehai://tbCourse/getTbCourserList.do//2",
+                              "video": {
+                              "classStartTime": "1512046800000",
+                              "courseTitle": "lesson 05：She goes swimming .",
+                              "videoId": "7314323212237760",
+                              "courseId": "7314074798259136"
+                              }
+                              },
+                              {
+                              "course": {
+                              "courseId": "7633018576305088",
+                              "classStartTime": "1522753200000",
+                              "courseTitle": "正确认识孩子的“考试焦虑”",
+                              "classEndTime": "1522756800000"
+                              },
+                              "des": "分享学习方法与技#巧传授科学教育观念",
+                              "weight": "0",
+                              "typeTitle": "向日葵讲座",
+                              "typeCode": "3",
+                              "url": "kehai://tbCourse/getTbCourserList.do//3",
+                              "video": {
+                              "classStartTime": "1522148400000",
+                              "courseTitle": "帮助孩子攻克他的弱项",
+                              "videoId": "7645332448246720",
+                              "courseId": "7585126128745408"
+                              }
+                              },
+                              {
+                              "course": null,
+                              "des": "名师倾情打造#99%学生都会选择",
+                              "weight": "0",
+                              "typeTitle": "专题",
+                              "typeCode": "4",
+                              "url": "kehai://tbCourse/getTbCourserList.do//4",
+                              "video": {
+                              "classStartTime": "1503486000000",
+                              "courseTitle": "第六讲：词之境阔，意之言长",
+                              "videoId": "7033861803572160",
+                              "courseId": "6860903326317504"
+                              }
+                              }
+                ],
+                "todayLive": [
+                              {
+                              "classStartTime": "1522236600000",
+                              "typeTitle": "咪兔英语",
+                              "classEndTime": "1522240200000",
+                              "courseTitle": "What is the weather like in Beijing？",
+                              "typeCode": "6",
+                              "courseId": "7585172861189056"
+                              },
+                              {
+                              "classStartTime": "1522227600000",
+                              "typeTitle": "错题直播",
+                              "classEndTime": "1522229400000",
+                              "courseTitle": "【错题精讲】句子训练——改写句子",
+                              "typeCode": "7",
+                              "courseId": "7644208435854272"
+                              },
+                              {
+                              "classStartTime": "1522236600000",
+                              "typeTitle": "错题直播",
+                              "classEndTime": "1522238400000",
+                              "courseTitle": "【错题精讲】单词宝宝排列队",
+                              "typeCode": "7",
+                              "courseId": "7644352784890816"
+                              },
+                              {
+                              "classStartTime": "1522236600000",
+                              "typeTitle": "错题直播",
+                              "classEndTime": "1522238400000",
+                              "courseTitle": "【错题精讲】手脑并用——搭建图形",
+                              "typeCode": "7",
+                              "courseId": "7633389419953088"
+                              }
+                ]
+            },
+            "currTime": "1522123420218",
+            "resMsg": "成功"
+        }
+
+
+### Create a New Question [POST]
+
+You may create your own question using this action. It takes a JSON
+object containing a question and a collection of answers in the
+form of choices.
+
++ Request (application/json)
+
+        {
+            "question": "Favourite programming language?",
+            "choices": [
+                "Swift",
+                "Python",
+                "Objective-C",
+                "Ruby"
+            ]
+        }
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /questions/2
+
+    + Body
+
+            {
+                "question": "Favourite programming language?",
+                "published_at": "2015-08-05T08:40:51.620Z",
+                "choices": [
+                    {
+                        "choice": "Swift",
+                        "votes": 0
+                    }, {
+                        "choice": "Python",
+                        "votes": 0
+                    }, {
+                        "choice": "Objective-C",
+                        "votes": 0
+                    }, {
+                        "choice": "Ruby",
+                        "votes": 0
+                    }
+                ]
+            }
